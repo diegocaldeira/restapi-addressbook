@@ -5,6 +5,12 @@
 > In Spring's approach to building RESTful web services, HTTP requests are handled by a controller. These components are identified by the @RestController annotation, and the AddressController handles http operations. This controller is concise and simple.
 
 
+## TechStack
+- Lombok (Reduce boilerplate code)
+- Spring Boot DevTools (Provides fast application restarts, live reload and configurations for enhanced development experience)
+- Spring Web (Build web, including RESTful, applications using Spring MVC. Uses Apache Tomcat as the default embedded container)
+- H2 Database (Provides a fast in-memory database)
+	
 **1. Clone the application**
 
 ```bash
